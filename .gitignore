@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Frontend build
+frontend/dist/
+frontend/node_modules/
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+backend/__pycache__/
+backend/app/__pycache__/
+
+# Compilation & Instrumentation artifacts
+*.o
+*.out
+*.dylib
+*.a
+trace.json
+temp_runner*
+temp.c
+instrumented_*
+
+# Local Database & Logs
+backend/c_visual_lab.db
+*.sqlite
+*.sqlite3
+*.log
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
